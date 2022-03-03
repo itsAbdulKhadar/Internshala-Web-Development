@@ -1,6 +1,6 @@
 <?php
     function check_if_added_to_cart($item_id){
-        // check if a given ite with item_id is added to cart
+        // check if a given item with item_id is added to cart
         require 'common.php';
         $user_id = $_SESSION["id"];
         $query = "SELECT * FROM users_items WHERE item_id = '$item_id' AND user_id = '$user_id' AND status = 'Added to cart'";
