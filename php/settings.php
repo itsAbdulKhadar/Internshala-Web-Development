@@ -28,7 +28,7 @@
 					<h2 class="panel-title">Change Password</h2>
 				</div>
 				<div class="panel-body">
-					<form actiom="settings_script.php" method="post">
+					<form action="settings_script.php" method="post">
 						<div class="form-group">
 							<input type="password" class="form-control" name="old_pass" placeholder="Old Password" required>
 						</div>
